@@ -1,0 +1,94 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "final_2902093",
+    "collectionId": "082746d8-25ee-4605-bc83-1d500482ceaf",
+    "dateExported": "2024-11-15T16:46:48.679Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "118c7f3c-a6c5-4a83-9c26-ad51d003390d",
+            "name": "pruebas",
+            "containerId": "",
+            "created": "2024-11-15T13:06:18.264Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "90652530-8d98-4d80-b3f5-d3289bb0dd98",
+            "name": "autenticacion",
+            "containerId": "",
+            "created": "2024-11-15T14:15:37.151Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "f65fd50a-4c30-4d07-8053-712d13337443",
+            "colId": "082746d8-25ee-4605-bc83-1d500482ceaf",
+            "containerId": "118c7f3c-a6c5-4a83-9c26-ad51d003390d",
+            "name": "prueba_1",
+            "url": "http://localhost:3005/api/pruebas/saludo",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-11-15T13:03:09.205Z",
+            "modified": "2024-11-15T13:33:03.836Z",
+            "headers": []
+        },
+        {
+            "_id": "18c0de71-953a-4b0f-bc42-781dd66ff458",
+            "colId": "082746d8-25ee-4605-bc83-1d500482ceaf",
+            "containerId": "118c7f3c-a6c5-4a83-9c26-ad51d003390d",
+            "name": "Prueba de post",
+            "url": "http://localhost:3005/api/pruebas/registro",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-11-15T13:06:32.896Z",
+            "modified": "2024-11-15T13:32:36.449Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"jnoviedo46@misena.edu.co\",\n  \"password\":1234\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1de5a9b8-b1f8-4abb-9b30-eba8f7bfe2ad",
+            "colId": "082746d8-25ee-4605-bc83-1d500482ceaf",
+            "containerId": "90652530-8d98-4d80-b3f5-d3289bb0dd98",
+            "name": "registro de usuarios",
+            "url": "http://localhost:3005/api/auth/register",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-11-15T14:16:01.804Z",
+            "modified": "2024-11-15T16:45:30.774Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstName\":\"Nicolas\",\n  \"lastName\":\"Oviedo\",\n  \"email\":\"Nicolas@gmail.com\",\n  \"password\":\"1234\",\n  \"isAdmin\":false\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1b90c799-f29c-4c20-882c-24ba7bd403dc",
+            "colId": "082746d8-25ee-4605-bc83-1d500482ceaf",
+            "containerId": "90652530-8d98-4d80-b3f5-d3289bb0dd98",
+            "name": "login de usuarios",
+            "url": "http://localhost:3005/api/auth/login",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-11-15T14:17:18.520Z",
+            "modified": "2024-11-15T14:17:26.733Z",
+            "headers": []
+        }
+    ],
+    "ref": "EB5D1onB_680ea8RNn0WKId8dspcKNPr01xcCHr0vPq4KfyDfOfvQk9jpO328oFZDW27f5DwLfa3s-JNIYHcmg"
+}
